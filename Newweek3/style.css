@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box
+margin: 0;
+padding: 0;
+}
+
+body{
+    margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background: #f6f0fb;
+color: #172033;
+line-height: 1.6;
+}
+ 
+header{
+background-color: #2563eb;
+color: white;
+text-align: center;
+padding: 40px 20px;
+}
+
+header h1 {
+margin: 0;
+font-size: 42px;
+}
+
+header p {
+ font-size: 20px;   
+}
+
+nav{
+background-color:  #1e40af; 
+text-align: center;
+padding: 15px;
+}
+
+nav a{
+    color: white;
+text-decoration: none;
+margin: 0 12px;
+font-weight: bold;
+}
+nav a:hover{
+text-decoration: underline;
+color: #93c5fd;
+}
+
+main{
+width: 90%;
+max-width: 900px;
+margin: 30px auto;
+}
+
+
+#about{
+background-color: white;
+padding: 25px;
+margin-bottom: 25px;
+border: 1px solid #e5e7eb; 
+border-radius: 16px;
+}
+
+#about h2{
+    color: red;
+}
+
+#about img{
+ width: 220px;
+ height: 220px;
+ border-radius: 50%;
+}
+
+#about p{
+    color: red;
+}
+
+#skills{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+}
+
+#skills h2{
+    color: red;
+}
+
+#skill li {
+margin-bottom: 8px;
+
+}
+
+#skills ul {
+    padding: 12px;
+    list-style: none;
+}
+
+#skills li{
+    margin-bottom: 8px;
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+
+#education {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+}
+
+#education h2{
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #d1d5bd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #bdeafe;
+}
+
+#contact {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+}
+
+#contact h2 {
+    color: red;
+}
+label,
+input,
+textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;    
+}
+
+input,
+textarea{
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+background-color: #111827;
+color: white;
+text-align: center;
+padding: 20px;
+}
